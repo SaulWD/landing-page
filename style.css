@@ -10,12 +10,13 @@ header {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: 30px;
 }
 
 
 /* HEADER-TOP */
 
-.header-top {
+#header-top {
     padding: 10px 100px;
     display: flex;
     justify-content: space-between;
@@ -41,11 +42,16 @@ header {
 
 /* HEADER-BOTTOM */
 
-.header-bottom {
+#header-bottom {
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
+}
+
+.description {
+    width: 400px;
+    height: 250px;
 }
 
 .hero-title {
@@ -56,14 +62,72 @@ header {
 
 .image-placeholder {
     background-color: grey;
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .hero-text {
     margin-bottom: 10px;
+}
+
+.header-sign-up {
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 2px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+/* MAIN */
+
+#information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.full-box {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-box {
+    border: 2px solid blue;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
 }
